@@ -1,4 +1,4 @@
-const CACHE = 'nexus-cobertura-v4';
+const CACHE = 'nexus-cobertura-v5';
 const CORE = ['./','./index.html','./styles.css','./patch.css','./app.js','./patch.js','./manifest.webmanifest','./assets/nexus-icon.svg','./assets/nexus-logo.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));
