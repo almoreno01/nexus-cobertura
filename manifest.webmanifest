@@ -9,9 +9,9 @@
   "theme_color": "#104963",
   "icons": [
     {
-      "src": "./assets/nexus-logo.png",
-      "sizes": "130x125",
-      "type": "image/png",
+      "src": "./assets/nexus-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
       "purpose": "any"
     }
   ]
