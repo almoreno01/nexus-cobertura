@@ -1,0 +1,16 @@
+/* Requested UI adjustments only. */
+.brand-logo{width:45px;height:45px;border-radius:0;background:transparent;padding:0;object-fit:contain;flex:0 0 auto}
+.top-actions{display:flex;align-items:center;gap:7px;flex:0 0 auto}
+.currency-switch{display:flex;align-items:center;height:36px;padding:3px;border-radius:12px;background:rgba(255,255,255,.14);box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}
+.currency-switch-option{height:30px;min-width:42px;padding:0 8px;border:0;border-radius:9px;background:transparent;color:#d8e9f0;font-size:11px;font-weight:1000;letter-spacing:.2px;transition:background .18s ease,color .18s ease,box-shadow .18s ease}
+.currency-switch-option.active{background:#fff;color:var(--brand);box-shadow:0 3px 9px rgba(0,0,0,.16)}
+.tank-fill{left:8px!important;right:8px!important;top:8px!important;bottom:8px!important;width:auto!important;max-width:none!important;transform:scaleX(var(--battery-level,0));transform-origin:left center;transition:transform .35s ease!important;overflow:hidden}
+@media(max-width:520px){
+  .brand-logo{width:38px;height:38px}
+  .brand{gap:8px}
+  .brand-title{font-size:17px}
+  .top-actions{gap:4px}
+  .currency-switch{height:34px;padding:2px}
+  .currency-switch-option{height:30px;min-width:36px;padding:0 6px;font-size:10px}
+  .icon-btn{width:36px;height:36px;border-radius:12px;font-size:20px}
+}
