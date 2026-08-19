@@ -1,5 +1,5 @@
-const CACHE = 'nexus-cobertura-v11';
-const CORE = ['./','./index.html','./styles.css','./patch.css','./app.js','./patch.js','./auto-refresh-on-add.js','./conteos-support.js','./manifest.webmanifest','./assets/nexus-app-icon.png'];
+const CACHE = 'nexus-cobertura-v12';
+const CORE = ['./','./index.html','./styles.css','./patch.css','./app.js','./patch.js','./auto-refresh-on-add.js','./conteos-support.js','./per-doc-coverage.js','./manifest.webmanifest','./assets/nexus-app-icon.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));
 });
