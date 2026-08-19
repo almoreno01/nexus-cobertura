@@ -1,0 +1,18 @@
+{
+  "name": "Nexus Cobertura",
+  "short_name": "Cobertura",
+  "description": "Monitoreo de cobertura y recarga de puntos de efectivo desde Google Sheets.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eef4f7",
+  "theme_color": "#104963",
+  "icons": [
+    {
+      "src": "./assets/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
