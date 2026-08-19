@@ -9,8 +9,8 @@
   "theme_color": "#104963",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/almoreno01/nexus-control/main/assets/simple-logo.png?v=10",
-      "sizes": "130x125",
+      "src": "./assets/nexus-app-icon.png?v=11",
+      "sizes": "180x180",
       "type": "image/png",
       "purpose": "any"
     }
