@@ -8,6 +8,8 @@
 .settings-save-wrap{padding:0 2px 12px}
 .settings-save-wrap .save-settings{width:100%;margin-top:0;padding:13px 16px;border-radius:14px}
 .empty h2{margin-bottom:16px}
+.field input[type="number"]{-moz-appearance:textfield;appearance:textfield}
+.field input[type="number"]::-webkit-outer-spin-button,.field input[type="number"]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
 @media(max-width:520px){
   .brand-logo{width:38px;height:38px}
   .brand{gap:8px}
